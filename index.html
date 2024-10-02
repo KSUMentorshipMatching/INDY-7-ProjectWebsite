@@ -75,6 +75,15 @@
   <h3>Overview</h3>
   We aim to streamline the connection process between mentor and mentee for the KSU CCSE Mentorship program. To do this, we will develop a website where mentors and mentees can create a profile and upload their resume / credentials, enter in relevant information, and their preferences for a mentor/mentee. With this information, we then recommend different mentors to mentees where they can swipe left or right like a dating app. After they have swiped right (expressed interest) in a mentor, the mentor then receives a notification of an expressed interest from a mentee. The mentor can then review the mentee’s information and decide if they want to select the applicant as a mentee. After the selection, the mentor and mentee are given each other’s contact information, and the mentoring relationship can begin seamlessly. With a website, it makes the matching process more accessible and cuts down on the amount of manual communication needed to ensure connections are made.
   
+  <h3>Tech Talk</h3>
+  Our mentorship app is a flask web app that utilizes HTML and CSS for form submission and Python and Flask for form handling. We have an AWS database that will take in form data from the "create an account" webpage (email, pass, etc) and upload it to the AWS MySQL database for data manipulation. 
+
+  In specifics:
+  
+  Our HTML web page prompts the use to input either login info or new account info. After that they will be redirected to the main mentorship matching page where they can begin matching with mentors. We plan to use Javascript animations along with Flask for easy access to stored data, and HTML and CSS for the front end to create a dating app like experience for users to view different mentors and mentees.
+  
+  Our Flask handles form data and can pull data for the website. Right now, our flask application only handles form data as our website is not complete yet but in the future it will be able to pull data when the user needs to see data as well as add data such as preferences.
+
   <h3>Link to Mentor Match Below:</h3>
   [Insert Link to Mentor Match Here:]
 <p>
